@@ -1,0 +1,12 @@
+[package]
+name = "lau-memory-tiles"
+version = "0.1.0"
+edition = "2021"
+description = "Memory tiles for agent memory — observations, actions, thoughts, decisions, dreams"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[dev-dependencies]
