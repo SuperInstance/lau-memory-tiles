@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 description = "Memory tiles for agent memory — observations, actions, thoughts, decisions, dreams"
 license = "MIT"
+repository = "https://github.com/SuperInstance/lau-memory-tiles"
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
